@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-st.title('Mushroom')
+st.title('Mushroom'):mushroom:
 
 df = pd.read_csv('df_mush.csv')
 
@@ -25,5 +25,5 @@ option = st.selectbox(
 
 st.write('You selected:', option)  
 
-fig = px.bar(df, x = option, y = df[option].value_counts())
-st.plotly_chart(fig)
+# fig = px.bar(df, x = option, y = df[option].value_counts())
+# st.plotly_chart(fig)
