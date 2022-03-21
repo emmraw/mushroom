@@ -15,6 +15,6 @@ st.write("Here's our first attempt at importing a data table:")
 
 #click = st.button("You can click this button to see the ratio of poisonous mushrooms to edible")
 
-fig = px.pie(df['class'])
+fig = px.pie(values = df['class'])
 st.plotly_chart(fig)
   
