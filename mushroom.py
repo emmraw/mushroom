@@ -13,9 +13,9 @@ if check:
   
 st.write("Here's our first attempt at importing a data table:")
 
-click = st.button("You can click this button to see the ratio of poisonous mushrooms to edible")
+# click = st.button("You can click this button to see the ratio of poisonous mushrooms to edible")
 
-if click:
-  fig = px.pie(values=df['class'])
-  fig.show()
+# if click:
+#   fig = px.pie(values=df['class'])
+#   fig.show()
   
