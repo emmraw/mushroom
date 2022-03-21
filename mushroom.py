@@ -9,7 +9,7 @@ df = pd.read_csv('df_mush.csv')
 check = st.checkbox("Tick to see data")
 
 if check:
-  df.head()
+  df
   
 st.write("Here's our first attempt at importing a data table:")
 
