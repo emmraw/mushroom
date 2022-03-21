@@ -27,3 +27,8 @@ st.write('You selected:', option)
 
 fig = px.bar(df, x = option)
 st.plotly_chart(fig)
+
+d = st.date_input(
+     "When's your birthday",
+     datetime.date(2000, 3, 1))
+st.write('Your birthday is:', d)
