@@ -25,5 +25,5 @@ option = st.selectbox(
 
 st.write('You selected:', option)  
 
-fig = px.bar(df, x = option, y = df[option].value_counts(), palette = 'summer', order = df[option].value_counts().index)
+fig = px.bar(df, x = option, y = df[option].value_counts())
 st.plotly_chart(fig)
